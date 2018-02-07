@@ -1,0 +1,12 @@
+name: ASL_shiny
+title: ASL_shiny
+username:
+account: cornejo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 262210
+bundleId: 1208921
+url: https://cornejo.shinyapps.io/ASL_shiny/
+when: 1517865691.18304
+asMultiple: FALSE
+asStatic: FALSE
