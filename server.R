@@ -158,7 +158,7 @@ shinyServer(function(input, output, session) {
         ggplot(temp, 
                aes(x=sampleYear, y=meanLenth)) + 
             geom_point(size=0.5) + geom_smooth(method="lm", color="red", fill="orange") + geom_smooth(fill="light blue") +
-            theme_joy() + facet_wrap(~SASAP.Region, ncol = 2) +
+            theme_joy() + facet_wrap(~SASAP.Region, ncol = 4) +
             theme(axis.text.x = element_text(angle = 45, hjust = 1, size=12),
                   axis.text.y = element_text(angle = 0, hjust = 1, size=12),
                   text = element_text(size=15), title = element_text(size=15)) +
